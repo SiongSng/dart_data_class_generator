@@ -1094,7 +1094,7 @@ class DataClassGenerator {
             method += `    '${p.key}': `;
 
             if (p.isEnum) {
-                method += `${p.name}?.index,\n`;
+                method += `${p.name}?.name,\n`;
             } else if (p.isCollection) {
                 const nullSafe = p.isNullable ? '?' : '';
 
@@ -1154,7 +1154,7 @@ class DataClassGenerator {
 
             // serialization
             if (p.isEnum) {
-                method += `${p.rawType}.values[${value} ?? 0]`;
+                method += `${p.rawType}.values.byName(${value} ?? '')`;
             } else if (p.isCollection) {
                 const defaultValue = withDefaultValues && !p.isNullable ? ` ?? const ${p.isList ? '[]' : '{}'}` : '';
 
