@@ -1,5 +1,6 @@
-# Change Log
-
+# Changelog
+## 0.6.0
+handle enums with Enum.name and Enum.value.byName() 
 ## 0.5.2
 
 Added support for snake_case json keys

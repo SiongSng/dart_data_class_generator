@@ -3,7 +3,7 @@
 	"displayName": "Dart Data Class Generator",
 	"description": "Create dart data classes easily, fast and without writing boilerplate or running code generation.",
 	"publisher": "BendixMa",
-	"version": "0.5.5",
+	"version": "0.6.0",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
@@ -216,7 +216,8 @@
 		]
 	},
 	"scripts": {
-		"test": "node ./test/runTest.js"
+		"test": "node ./test/runTest.js",
+		"build-package": "vsce package"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
@@ -230,6 +231,6 @@
 		"vscode-test": "^1.0.2"
 	},
 	"dependencies": {
-		"vsce": "^2.5.1"
+		"vsce": "^2.7.0"
 	}
 }

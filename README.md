@@ -1,7 +1,7 @@
 # Dart Data Class Generator
 
-[![GitHub Stars](https://img.shields.io/github/stars/bxqm/dart_data_class_generator.svg?logo=github)](https://github.com/bxqm/dart_data_class_generator)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/BendixMa.dart-data-class-generator?color=blue)](https://github.com/bxqm/dart_data_class_generator)
+[![GitHub Stars](https://img.shields.io/github/stars/SiongSng/dart_data_class_generator.svg?logo=github)](https://github.com/SiongSng/dart_data_class_generator)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/SiongSng.dart-data-class-generator?color=blue)](https://github.com/SiongSng/dart_data_class_generator)
 
 
 Create dart data classes easily, fast and without writing boilerplate or running code generation.  
@@ -107,3 +107,10 @@ json keys.
 * `dart_data_class_generator.equality.enabled`: If true, generates an override of the == (equals) operator for a data class.
 * `dart_data_class_generator.hashCode.enabled`: If true, generates a hashCode function for a data class.
 * `dart_data_class_generator.hashCode.use_jenkins`: If true, uses the Jenkins SMI hash function instead of bitwise operator from dart:ui.
+
+## Credit
+- SiongSng
+- bxqm
+- huang12zheng
+
+Fork from https://github.com/huang12zheng/Dart-Data-Class-Generator
